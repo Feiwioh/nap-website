@@ -1,0 +1,67 @@
+body {
+  background-color: #797979;
+  background-image: url('../Images/blueandorange.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.block {
+  width: 10%;
+  height: auto;
+  margin: 6px;
+  vertical-align: middle;
+  border-radius: 1.5em;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+a {
+  target: "_blank";
+  cursor: pointer;
+}
+
+.block:hover {
+  background-color: RGB(255, 255, 255, 0.6);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 1s ease;
+  background-color: #333;
+}
+
+.button {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.about {
+  padding: 0;
+}
